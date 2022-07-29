@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Classes.MainMenuController">
+   <Button fx:id="btn_exit" layoutX="229.0" layoutY="292.0" mnemonicParsing="false" onAction="#OnExitButtonPressed" prefHeight="61.0" prefWidth="142.0" text="KILÉPÉS" />
+   <Label layoutX="110.0" layoutY="85.0" text="A világtalan virológusok világa">
+      <font>
+         <Font size="31.0" />
+      </font>
+   </Label>
+   <Button fx:id="btn_newGame" layoutX="229.0" layoutY="206.0" mnemonicParsing="false" onAction="#OnNewGameButtonPressed" prefHeight="61.0" prefWidth="142.0" text="ÚJ JÁTÉK" />
+</AnchorPane>

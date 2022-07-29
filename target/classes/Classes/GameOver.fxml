@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="Classes.GameOverController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Button fx:id="btn_exit" layoutX="229.0" layoutY="292.0" mnemonicParsing="false" onAction="#OnExitButtonPressed" prefHeight="61.0" prefWidth="142.0" text="KILÉPÉS" />
+    <Label layoutX="219.0" layoutY="85.0" text="Game Over">
+        <font>
+            <Font size="31.0" />
+        </font>
+    </Label>
+    <Button fx:id="btn_backbobenu" layoutX="229.0" layoutY="206.0" mnemonicParsing="false" onAction="#OnBackToMenuButtonPressed" prefHeight="61.0" prefWidth="142.0" text="Vissza a Főmenübe" />
+</AnchorPane>

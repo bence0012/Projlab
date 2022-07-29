@@ -1,0 +1,16 @@
+create Tile active
+create Tile neighbour
+create NormalMove moveType
+create Virologist virologist
+create DanceVirus dvi
+create GameMap gmp
+add gmp virologist
+add neighbour active
+add active virologist
+changeMoveType virologist moveType
+add virologist Amino
+add virologist Amino
+add virologist Nukleo
+add virologist dvi
+craft virologist DanceVirus crafteddvi
+exit

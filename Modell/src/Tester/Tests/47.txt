@@ -1,0 +1,25 @@
+create Tile active
+create Laboratory neighbour
+setChance neighbour 100
+create NormalMove moveType
+create Virologist virologist
+create Virologist virologist2
+create DanceVirus dv
+create DanceVaccine dva
+create GameMap gameMap
+create GameController gameContoller
+add neighbour dv
+add neighbour dva
+add gameMap virologist
+add neighbour active
+add active virologist
+add active virologist2
+add gameMap virologist
+add gameMap virologist2
+changeMoveType virologist moveType
+move virologist neighbour
+move virologist active
+state active
+state virologist
+state virologist2
+exit

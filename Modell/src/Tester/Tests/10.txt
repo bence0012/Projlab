@@ -1,0 +1,26 @@
+create Tile active
+create Bunker neighbour
+create NormalMove moveType
+create Virologist virologist
+create Gloves gloves1
+create Gloves gloves2
+add neighbour active
+state neighbour
+state active
+add active virologist
+state active
+state virologist
+changeMoveType virologist moveType
+state virologist
+add neighbour gloves1
+state gloves1
+state neighbour
+add virologist gloves2
+state gloves2
+state virologist
+move virologist neighbour
+state neighbour
+state active
+state virologist
+state gloves1
+exit

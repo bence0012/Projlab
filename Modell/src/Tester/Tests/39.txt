@@ -1,0 +1,14 @@
+create Tile t1
+create GameMap map
+create Virologist v1
+create Virologist v2
+create StunVaccine stunnVaccine
+add map v1
+add map v2
+add v1 stunnVaccine
+add t1 v1
+add t1 v2
+attack v1 stunnVaccine v2
+state v1
+state v2
+exit

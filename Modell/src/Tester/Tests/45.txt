@@ -1,0 +1,14 @@
+create Tile active
+create Bunker neighbour
+create NormalMove moveType
+create Virologist virologist
+create Axe axe
+create GameMap gmp
+add gmp virologist
+add neighbour active
+add active virologist
+changeMoveType virologist moveType
+add neighbour axe
+move virologist neighbour
+state virologist
+exit

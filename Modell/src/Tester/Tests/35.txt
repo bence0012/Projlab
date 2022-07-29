@@ -1,0 +1,16 @@
+create Tile active
+create Tile neighbour
+create NormalMove moveType
+create Virologist virologist
+create StunVirus svi
+create GameMap gmp
+add gmp virologist
+add neighbour active
+add active virologist
+changeMoveType virologist moveType
+add virologist Amino
+add virologist Amino
+add virologist Nukleo
+add virologist svi
+craft virologist StunVirus craftedsvi
+exit

@@ -1,0 +1,16 @@
+create Tile active
+create Tile neighbour
+create NormalMove moveType
+create Virologist virologist
+create DanceVaccine dva
+create GameMap gmp
+add neighbour active
+add active virologist
+add gmp virologist
+changeMoveType virologist moveType
+add virologist Amino
+add virologist Amino
+add virologist Nukleo
+add virologist dva
+craft virologist DanceVaccine crafteddva
+exit

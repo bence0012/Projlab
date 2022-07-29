@@ -1,0 +1,19 @@
+create GameMap map
+create Virologist v1
+create Virologist v2
+create Tile t
+add map t
+add map v1
+add map v2
+add t v1
+add t v2
+create StunVirus sv
+create Gloves g
+add v1 sv
+attack v1 sv v2
+add v2 g
+state v1
+state v2
+steal v1 g v2
+state v1
+state v2

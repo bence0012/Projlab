@@ -1,0 +1,16 @@
+create Tile t1
+create GameMap map
+create Virologist v1
+create Virologist v2
+create StunVirus stunn
+add map v1
+add map v2
+add v1 stunn
+add t1 v1
+add t1 v2
+add v2 Nukleo
+attack v1 stunn v2
+steal v1 Nukleo v2
+state v1
+state v2
+exit

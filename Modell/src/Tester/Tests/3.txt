@@ -1,0 +1,19 @@
+create Tile active
+create Storage neighbour
+create NormalMove moveType
+create Virologist virologist
+add neighbour active
+state neighbour
+state active
+add active virologist
+state virologist
+state active
+changeMoveType virologist moveType
+state virologist
+add neighbour Nukleo
+state neighbour
+move virologist neighbour
+state neighbour
+state active
+state virologist
+exit

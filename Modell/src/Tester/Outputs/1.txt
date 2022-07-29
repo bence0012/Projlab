@@ -1,0 +1,63 @@
+Tile neighbour {
+	1. neighbourName: active
+	hasItem: false
+}
+Tile active {
+	1. neighbourName: neighbour
+	hasItem: false
+}
+Tile active {
+	1. virologistName: virologist
+	1. neighbourName: neighbour
+	hasItem: false
+}
+Virologist virologist {
+	moveType: NormalMove
+	tile: active
+	maxStorage: 6
+	usedStorage: 0
+	amino: 0
+	nukleo: 0
+	gameMap: Object not found in scene!
+	learnedAgents: 
+	equipments: 
+	agentStorage: 
+	affectedBy: 
+}
+Virologist virologist has received the following moveType: moveType
+Virologist virologist {
+	moveType: NormalMove
+	tile: active
+	maxStorage: 6
+	usedStorage: 0
+	amino: 0
+	nukleo: 0
+	gameMap: Object not found in scene!
+	learnedAgents: 
+	equipments: 
+	agentStorage: 
+	affectedBy: 
+}
+Virologist virologist moved to Tile: neighbour
+Virologist virologist {
+	moveType: NormalMove
+	tile: neighbour
+	maxStorage: 6
+	usedStorage: 0
+	amino: 0
+	nukleo: 0
+	gameMap: Object not found in scene!
+	learnedAgents: 
+	equipments: 
+	agentStorage: 
+	affectedBy: 
+}
+Tile neighbour {
+	1. virologistName: virologist
+	1. neighbourName: active
+	hasItem: false
+}
+Tile active {
+	1. neighbourName: neighbour
+	hasItem: false
+}

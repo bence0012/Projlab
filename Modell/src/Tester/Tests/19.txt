@@ -1,0 +1,35 @@
+create Tile active
+create Laboratory neighbour
+setChance neighbour 100
+create NormalMove moveType
+create Virologist virologist
+create GameMap gameMap
+create GameController gameContoller
+create StunVirus stunVirus
+create StunVaccine stunVaccine
+create Cloak cloak
+setChance cloak 100
+add virologist cloak
+state virologist
+state cloak
+add neighbour stunVirus
+add neighbour stunVaccine
+state neighbour
+state stunVirus
+state stunVaccine
+add gameMap virologist
+state gameMap
+state virologist
+add neighbour active
+state neighbour
+state active
+add active virologist
+state active
+state virologist
+changeMoveType virologist moveType
+state virologist
+move virologist neighbour
+state neighbour
+state active
+state virologist
+exit
